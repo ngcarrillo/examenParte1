@@ -5,6 +5,7 @@ import java.io.IOException;
 public class ExamenFinalParte1 {
 
     public static void main(String[] args) throws IOException {
+        
         Sumar objetoSuma1 = new Sumar(10, 20);
         int resultado1 = objetoSuma1.suma;
         System.out.println("Es: " + resultado1);
